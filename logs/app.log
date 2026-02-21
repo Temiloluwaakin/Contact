@@ -1,0 +1,44 @@
+2026-02-21 15:13:11.461 [restartedMain] INFO  c.example.contact.ContactApplication [] - Starting ContactApplication using Java 21.0.10 with PID 1724 (C:\Users\USER\Documents\Projects\Java\contact\target\classes started by USER in C:\Users\USER\Documents\Projects\Java\contact)
+2026-02-21 15:13:11.463 [restartedMain] INFO  c.example.contact.ContactApplication [] - No active profile set, falling back to 1 default profile: "default"
+2026-02-21 15:13:11.524 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-21 15:13:11.524 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-21 15:13:12.703 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] - Tomcat initialized with port 8080 (http)
+2026-02-21 15:13:12.716 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [] - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-21 15:13:12.718 [restartedMain] INFO  o.a.catalina.core.StandardService [] - Starting service [Tomcat]
+2026-02-21 15:13:12.719 [restartedMain] INFO  o.a.catalina.core.StandardEngine [] - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-02-21 15:13:12.773 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] - Initializing Spring embedded WebApplicationContext
+2026-02-21 15:13:12.774 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1248 ms
+2026-02-21 15:13:13.055 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean [] - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-02-21 15:13:13.416 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [] - LiveReload server is running on port 35729
+2026-02-21 15:13:13.432 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [] - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-21 15:13:13.455 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] - Tomcat started on port 8080 (http) with context path '/'
+2026-02-21 15:13:13.464 [restartedMain] INFO  c.example.contact.ContactApplication [] - Started ContactApplication in 2.715 seconds (process running for 3.187)
+2026-02-21 15:13:30.810 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-21 15:13:30.810 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2026-02-21 15:13:30.810 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [] - Completed initialization in 0 ms
+2026-02-21 15:13:31.193 [http-nio-8080-exec-1] INFO  c.e.contact.service.UserServiceImpl [974c7efa-f46a-4e70-a332-6c39639ac8b8] - Registering user with email: akin@gmail.com
+2026-02-21 15:13:31.209 [http-nio-8080-exec-1] WARN  c.e.contact.service.UserServiceImpl [974c7efa-f46a-4e70-a332-6c39639ac8b8] - email or name is blank
+2026-02-21 15:13:55.283 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown [] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-21 15:13:55.299 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown [] - Graceful shutdown complete
+2026-02-21 15:16:03.473 [restartedMain] INFO  c.example.contact.ContactApplication [] - Starting ContactApplication using Java 21.0.10 with PID 11852 (C:\Users\USER\Documents\Projects\Java\contact\target\classes started by USER in C:\Users\USER\Documents\Projects\Java\contact)
+2026-02-21 15:16:03.477 [restartedMain] INFO  c.example.contact.ContactApplication [] - No active profile set, falling back to 1 default profile: "default"
+2026-02-21 15:16:03.569 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-21 15:16:03.570 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-21 15:16:04.755 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] - Tomcat initialized with port 8080 (http)
+2026-02-21 15:16:04.769 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [] - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-21 15:16:04.772 [restartedMain] INFO  o.a.catalina.core.StandardService [] - Starting service [Tomcat]
+2026-02-21 15:16:04.772 [restartedMain] INFO  o.a.catalina.core.StandardEngine [] - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-02-21 15:16:04.823 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] - Initializing Spring embedded WebApplicationContext
+2026-02-21 15:16:04.825 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] - Root WebApplicationContext: initialization completed in 1253 ms
+2026-02-21 15:16:05.164 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean [] - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-02-21 15:16:05.643 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [] - LiveReload server is running on port 35729
+2026-02-21 15:16:05.661 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [] - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-21 15:16:05.691 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] - Tomcat started on port 8080 (http) with context path '/'
+2026-02-21 15:16:05.704 [restartedMain] INFO  c.example.contact.ContactApplication [] - Started ContactApplication in 3.112 seconds (process running for 3.817)
+2026-02-21 15:16:11.830 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-21 15:16:11.831 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet [] - Initializing Servlet 'dispatcherServlet'
+2026-02-21 15:16:11.833 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet [] - Completed initialization in 2 ms
+2026-02-21 15:16:11.936 [http-nio-8080-exec-2] INFO  c.e.contact.service.UserServiceImpl [ff688171-1f20-44e8-bd2e-710fb1cc8987] - Registering user with email: akin@gmail.com
+2026-02-21 15:16:11.938 [http-nio-8080-exec-2] WARN  c.e.contact.service.UserServiceImpl [ff688171-1f20-44e8-bd2e-710fb1cc8987] - email or name is blank
+2026-02-21 15:17:01.530 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown [] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-21 15:17:01.537 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown [] - Graceful shutdown complete

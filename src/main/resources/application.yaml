@@ -5,3 +5,5 @@ spring:
 app:
   min-age: 18
   default-country: "Unknown"
+  logging:
+    path: C:/Logs

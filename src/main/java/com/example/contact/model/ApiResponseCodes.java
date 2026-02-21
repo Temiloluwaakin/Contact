@@ -5,7 +5,8 @@ public class ApiResponseCodes {
     public enum ResponseCode {
         SUCCESS("00", "Operation successful"),
         Failed("01", "Operation Failed"),
-        INVALID_REQUEST("02", "Invalid request")
+        INVALID_REQUEST("02", "Invalid request"),
+        Exception("99", "Exception Occured")
         ;
 
         private final String code;
