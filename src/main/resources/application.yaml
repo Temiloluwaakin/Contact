@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: contact
+
+app:
+  min-age: 18
+  default-country: "Unknown"
