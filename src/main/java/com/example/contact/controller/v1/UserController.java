@@ -1,18 +1,14 @@
 package com.example.contact.controller.v1;
 
-import com.example.contact.model.ApiResponse;
-import com.example.contact.model.LoginRequest;
-import com.example.contact.model.UserRequest;
-import com.example.contact.model.UserResponse;
+import com.example.contact.model.*;
 import com.example.contact.service.apiInterface.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Slf4j
 @RestController
@@ -59,6 +55,18 @@ public class UserController {
         }
         catch (Exception ex){
             log.warn("an exception occurerd {}", ex.getMessage());
+            return null;
+        }
+    }
+
+    @GetMapping
+    public ApiResponse<List<UsersDto.AllUsersResp>> getAllUsers(){
+        try{
+            var resp = userService.getAllUsers();
+            return resp;
+        }
+        catch (Exception ex){
+            log.warn("an exception occurerd in getallusers {}", ex.getMessage());
             return null;
         }
     }

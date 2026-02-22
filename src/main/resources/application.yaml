@@ -7,3 +7,15 @@ app:
   default-country: "Unknown"
   logging:
     path: C:/Logs
+  clients:
+    user-service:
+      base-url: https://jsonplaceholder.typicode.com
+      endpoints:
+        get-user: /users
+    enrichment-service:
+      base-url: https://api.enrichment.com
+      endpoints:
+        enrich-user: /enrich
+  timeout:
+    connect: 5000
+    read: 10000
